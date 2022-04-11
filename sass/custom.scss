@@ -1,0 +1,112 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+li {
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+.nav-link {
+    color: rgb(83, 83, 83);
+    letter-spacing: 2px;
+}
+
+.nav-link:hover {
+    color: lightcoral ;
+}
+
+.nav-pills .nav-link.active {
+    padding-left:25px;
+    padding-right:25px;
+    background-color: #ff0000;
+}
+
+.nav-pills .nav-link.active:hover{
+    background-color: aliceblue;
+    color: #ff0000;
+    border: solid 2px;
+    border-color: #ff0000;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: blue;
+    border: solid 2 px;
+    border-color: blue;
+}
+
+.btn-outline-light {
+    color: black;
+}
+
+.btn-outline-light:hover {
+    background-color: aliceblue;
+    color: black;
+    border: solid 2px;
+    border-color: black;
+}
+
+.card-img-top {
+    width: 50%;
+    height: 10vw;
+    object-fit: scale-down;    
+}
+
+.dots-img {
+    width: 100%;
+    object-fit: scale-down
+}
+
+.accordion {
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+} 
+
+.accordion-header {
+    font-size: 18px;
+}
+   
+.accordion .accordion-item,
+.accordion .accordion-header {
+    border: black;
+}
+   
+.accordion .accordion-header {
+    border-bottom-color: solid black;
+    background: transparent;
+}
+   
+.accordion-button {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+    border-bottom-color: solid black 2px;
+}
+
+.accordion-button:hover {
+    color: coral;
+}
+   
+.accordion .accordion-button:hover,
+.accordion .accordion-button:focus {
+    text-decoration: orangered;
+}
+   
+.accordion li + li {
+    margin-top: 10px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
