@@ -66,47 +66,5 @@ li {
     object-fit: scale-down
 }
 
-.accordion {
-    max-width: 500px;
-    margin: 50px auto;
-    box-shadow: 0 0 1px rgba(0,0,0,0.1);
-} 
-
-.accordion-header {
-    font-size: 18px;
-}
-   
-.accordion .accordion-item,
-.accordion .accordion-header {
-    border: black;
-}
-   
-.accordion .accordion-header {
-    border-bottom-color: solid black;
-    background: transparent;
-}
-   
-.accordion-button {
-    width: 100%;
-    font-size: 25px;
-    font-weight: 500;
-    color: black;
-    padding: 10px;
-    border-bottom-color: solid black 2px;
-}
-
-.accordion-button:hover {
-    color: coral;
-}
-   
-.accordion .accordion-button:hover,
-.accordion .accordion-button:focus {
-    text-decoration: orangered;
-}
-   
-.accordion li + li {
-    margin-top: 10px;
-}
-
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
